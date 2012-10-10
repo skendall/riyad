@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="eventbus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/external-lib/eventbus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/j-ogg-oggd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/j-ogg-vorbisd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jbullet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jinput.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-blender.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-desktop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-effects.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-jbullet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-jogg.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-networking.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-niftygui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-plugins.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/jME3-terrain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/nifty-default-controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/nifty.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/stack-alloc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/vecmath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/external-lib/xmlpull-xpp3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

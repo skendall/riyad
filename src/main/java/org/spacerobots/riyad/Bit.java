@@ -1,4 +1,4 @@
-package org.spacerobots.demo;
+package org.spacerobots.riyad;
 
 import com.jme3.asset.AssetManager;
 import com.jme3.material.Material;
@@ -88,11 +88,11 @@ public class Bit {
             timeVar++;
         float scale = FastMath.sin(timeVar)*0.10f + 1f;
         box1.setLocalScale((float) scale);
-        box1.rotate(1.3f * rotateScale, 2* rotateScale, 1.3f* rotateScale);
+        box1.rotate(1.3f * rotateScale, 2 * rotateScale, 1.3f * rotateScale);
         box2.setLocalScale((float) scale);
-        box2.rotate(1.3f* rotateScale, 2* rotateScale, 1.3f* rotateScale);
+        box2.rotate(1.3f * rotateScale, 2 * rotateScale, 1.3f * rotateScale);
         box3.setLocalScale((float) scale);
-        box3.rotate(1.3f* rotateScale, 2* rotateScale, 1.3f* rotateScale);
+        box3.rotate(1.3f * rotateScale, 2 * rotateScale, 1.3f * rotateScale);
         if(isTalking) {
             float i = FastMath.sin(timeVar);
             box3.getMaterial().setColor("Color",new ColorRGBA(0.3f*i,0.3f*i,1.0f,0));

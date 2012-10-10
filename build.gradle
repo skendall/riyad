@@ -1,0 +1,29 @@
+
+ buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'eu.appsatori:gradle-fatjar-plugin:0.1.2'
+    }
+ }
+
+ apply plugin: 'fatjar'
+ apply plugin: 'java'
+ apply plugin: 'idea'
+
+
+
+ dependencies {
+    compile fileTree(dir: 'external-lib', include: '*.jar')
+ }
+
+ fatJar {
+     manifest {
+         attributes 'Main-Class' : 'org.spacerobots.riyad.App'
+     }
+ }
+
+ build.dependsOn {
+     fatJar
+ }

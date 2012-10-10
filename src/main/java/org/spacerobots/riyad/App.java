@@ -1,4 +1,4 @@
-package org.spacerobots.demo;
+package org.spacerobots.riyad;
 
 import com.jme3.app.SimpleApplication;
 import com.jme3.input.MouseInput;
@@ -8,10 +8,10 @@ import com.jme3.input.controls.MouseButtonTrigger;
 /** Sample 1 - how to get started with the most simple JME 3 application.
  * Display a blue 3D cube and view from all sides by
  * moving the mouse and pressing the WASD keys. */
-public class SimpleApp extends SimpleApplication implements ActionListener {
+public class App extends SimpleApplication implements ActionListener {
 
     public static void main(String[] args){
-        SimpleApp app = new SimpleApp();
+        App app = new App();
         app.setShowSettings(false);
         app.setDisplayStatView(false);
         app.start(); // start the game
