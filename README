@@ -1,0 +1,8 @@
+
+ A test of the JMonkeyEngine OpenGL capabilities.  May eventually turn
+ into something more.
+
+ Build is simple: gradle build
+
+ Run is simple: java -jar build/libs/riyad.jar
+
